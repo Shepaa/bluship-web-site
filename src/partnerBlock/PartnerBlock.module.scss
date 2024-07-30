@@ -1,0 +1,97 @@
+.wrapper {
+  color: #F7F7FA;
+  margin-top: 200px;
+  position: relative;
+  overflow: hidden;
+  @media screen and (max-width: 1080px) {
+    margin-top: 678px;
+  }
+  @media screen and (max-width: 800px) {
+    margin-top: 490px;
+  }
+  @media screen and (max-width: 480px) {
+    margin-top: 500px;
+  }
+  @media screen and (max-width: 320px) {
+    margin-top: 336px;
+  }
+}
+
+.blue {
+  color: #16BAFF;
+}
+
+.title {
+  width: 385px;
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+
+  @media screen and (max-width: 1080px) {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+  }
+
+  @media screen and (max-width: 480px) {
+  }
+  @media screen and (max-width: 320px) {
+    width: 257px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+}
+
+.partnerBlockWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 271px;
+  margin-top: 42px;
+  @media screen and (max-width: 1440px) {
+    margin-left: 38px;
+    margin-right: 36px;
+  }
+  @media screen and (max-width: 800px) {
+    width: calc(100% + 30px); // Увеличиваем ширину, чтобы последний блок выходил за пределы
+  }
+  @media screen and (max-width: 480px){
+    width: calc(100% + 60px);
+  }
+}
+
+.firstLine {
+  display: flex;
+  gap: 4px;
+}
+
+.secondLine {
+  display: flex;
+  margin-top: 4px;
+  gap: 4px;
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+}
+
+.partnerCart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 338px;
+  padding: 12px 4px 12px 4px;
+  gap: 10px;
+  border-radius: 12px;
+  //background-color: rgba(239, 60, 189, 0.05);
+  background-color: red;
+  @media screen and (max-width: 1080px) {
+    width: 247px;
+    height: 102px;
+  }
+  @media screen and (max-width: 480px) {
+    width: 247px;
+    height: 102px;
+  }
+}

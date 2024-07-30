@@ -1,0 +1,35 @@
+
+
+.hiringBlockContainer{
+  height: 40px;
+  width: 100%;
+  background-image: linear-gradient(to left, #FF2DA0, #7063FF, #16BAFF);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  gap: 12px;
+  @media screen and (max-width: 1440px){
+    display: none;
+  }
+  @media screen and (max-width: 1080px){
+    display: flex;
+  }
+}
+.hiringBlockTitleIcon{
+  margin-top: 2px;
+  margin-right: 6px;
+}
+.hiringBlockTitle{
+  display: flex;
+  align-items: center;
+color: black;
+}
+
+.hiringBlockSubTitle{
+color: white;
+}

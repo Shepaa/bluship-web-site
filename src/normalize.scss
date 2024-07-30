@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "ClashGrotesk-Variable";
+  src: url("./assets /fonts/ClashGrotesk/ClashGrotesk-Variable.woff2") format("woff2"),
+  url("./assets /fonts/ClashGrotesk/ClashGrotesk-Variable.woff") format("woff"),
+  url("./assets /fonts/ClashGrotesk/ClashGrotesk-Variable.ttf") format("truetype");
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+html,body{
+  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: 'ClashGrotesk-Variable', sans-serif; /* Подключенный шрифт */
+  overflow-x: hidden; /* Отключает горизонтальный скролл */
+  overflow-y: auto;
+  background-image: url('../src/assets /image 9.png'); /* Убедитесь, что путь к изображению правильный */
+  background-size: cover; /* Изображение будет покрывать всю область контейнера */
+  background-position: center; /* Изображение будет центрировано */
+  min-height: 100%; /* Минимальная высота контейнера, чтобы покрыть весь экран */
+}

@@ -1,0 +1,160 @@
+.wrapper {
+  padding: 20px;
+}
+
+.bannerContainer {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-left: 271px;
+  margin-top: 152px;
+
+  @media screen and (max-width: 1440px) {
+    margin-left: 38px;
+  }
+
+  @media screen and (max-width: 480px) {
+    margin-left: 18px;
+    margin-top: 80px;
+    width: calc(100% - 36px);
+  }
+
+  @media screen and (max-width: 320px) {
+    margin-left: 16px;
+    margin-top: 60px;
+    width: calc(100% - 32px);
+  }
+}
+
+.blue {
+  color: #0072b9;
+}
+
+.purple {
+  color: #8a2be2;
+}
+
+.title {
+  font-size: 76px;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: 0.02em;
+  text-align: left;
+
+  @media screen and (max-width: 480px) {
+    font-size: 47px;
+    line-height: 62px;
+  }
+
+  @media screen and (max-width: 320px) {
+    font-size: 36px;
+    line-height: 48px;
+  }
+}
+
+.subTitle {
+  margin-top: 26px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  width: 500px;
+
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  @media screen and (max-width: 320px) {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 16px;
+  }
+}
+
+.headerButton {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 214px;
+  background-color: white;
+  margin-top: 64px;
+
+  @media screen and (max-width: 320px) {
+    width: 100%;
+    margin-top: 32px;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 28px;
+    font-family: Satoshi, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 26px;
+    color: #04020D;
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+
+    @media screen and (max-width: 320px) {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+}
+
+
+.originalImg {
+  position: absolute;
+  width: 1920px;
+  height: 1601px;
+  top: 40px;
+  @media screen and (max-width: 1440px) {
+    width: 1920px;
+    height: 1601px;
+    top: 40px;
+    left: -240px;
+  }
+  @media screen and (max-width: 1080px) {
+    display: none;
+  }
+}
+
+.rocketImgTablet {
+  display: none;
+  position: absolute;
+  @media screen and (max-width: 1080px) {
+    display: block;
+    width: 1080px;
+    height: 1177px;
+    top: 500px;
+  }
+  @media screen and (max-width: 800px) {
+    width: 768px;
+    height: 835px;
+    top: 570px;
+  }
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
+}
+
+.rocketImgMobile{
+  display: none;
+  position: absolute;
+  @media screen and (max-width: 480px) {
+   display: block;
+    width: 451px;
+    height: 830px;
+    top: 630px;
+  }
+  @media screen and (max-width: 320px) {
+    width: 320px;
+    height: 580px;
+  }
+}

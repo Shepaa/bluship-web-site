@@ -1,0 +1,8 @@
+.line {
+  width: calc(100% - 217px); /* Установите фиксированную ширину для проверки */
+  border: 2px solid;
+  margin: 194px auto; /* Центрирует линию горизонтально */
+  border-image-source: linear-gradient(90deg, #9E63FF 0%, #FF2DA0 100%);
+  border-image-slice: 1; /* Необходимо для правильного отображения градиента */
+
+}
