@@ -17,6 +17,9 @@
   @media screen and (max-width: 1080px) {
     display: flex;
   }
+  @media screen and (max-width: 320px){
+    font-size: 12px;
+  }
 }
 
 .hiringBlockTitleIcon {

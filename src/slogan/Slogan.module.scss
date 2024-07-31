@@ -3,6 +3,9 @@
   justify-content: center;
   align-items: center;
   padding: 60px 20px;
+  @media screen and (max-width: 480px){
+    margin-top: 35px;
+  }
 }
 
 .extraMileSection {
@@ -10,6 +13,7 @@
   flex-direction: column;
   align-items: flex-end;
   max-width: 1376px;
+  width: 100%; // Добавлено для полного заполнения ширины
 }
 
 .line {
@@ -24,24 +28,25 @@
 
 .logoContainer {
   display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  width: 365px;
-  height: 85px;
+  align-items: center; // Выравнивание по центру вертикально
+  margin-left: 10px; // Отступ между "WITH" и логотипом
 }
 
-.lastLine{
+.lastLine {
   display: flex;
-  gap: 5px;
-  @media screen and (max-width: 800px){
-    flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  @media screen and (max-width: 1440px){
+    width: 89.5%;
+  }
+  @media screen and (max-width: 1080px){
+    width: 96.5%;
   }
 }
 
 @media screen and (max-width: 1440px) {
-  .line {
-    font-size: 60px;
-  }
+  .line { font-size: 60px; }
 }
 
 @media screen and (max-width: 1080px) {
@@ -58,15 +63,18 @@
   .line {
     text-align: center;
   }
+  .lastLine {
+    flex-direction: column;
+    align-items: center;
+  }
   .logoContainer {
-    margin-top: 0; /* Снимаем отступ, если есть */
+    margin-left: 0;
+    margin-top: 10px;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .line {
-    font-size: 32px;
-  }
+  .line { font-size: 32px; }
   .logoContainer img {
     width: 246px;
     height: 65px;
@@ -74,9 +82,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .line {
-    font-size: 24px;
-  }
+  .line { font-size: 24px; }
   .logoContainer img {
     width: 178px;
     height: 47px;

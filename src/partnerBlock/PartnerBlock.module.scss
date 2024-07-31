@@ -22,13 +22,13 @@
 .title {
   width: 385px;
   margin: 0 auto;
-  font-size: 1.5em; // 24px / 16px
+  font-size: 1.5em;
   font-weight: 600;
   line-height: 1.33em;
   text-align: left;
 
   @media screen and (max-width: 1080px) {
-    font-size: 1.5em; // 24px / 16px
+    font-size: 1.5em;
     font-weight: 600;
   }
 
@@ -42,20 +42,20 @@
 .partnerBlockWrapper {
   display: flex;
   flex-direction: column;
-  width: 85.25em; // 1364px / 16px
-  margin: 2.625em auto; // 42px / 16px
+  width: 85.25em;
+  margin: 2.625em auto;
 
   @media screen and (max-width: 1440px) {
-    margin-left: 2.375em; // 38px / 16px
-    margin-right: 2.25em; // 36px / 16px
+    margin-left: 2.375em;
+    margin-right: 2.25em;
   }
 
   @media screen and (max-width: 1080px) {
-    width: 62.5em; // 1000px / 16px
+    width: 62.5em;
   }
 
   @media screen and (max-width: 800px) {
-    width: calc(100% + 1.875em); // 30px / 16px
+    width: calc(100% + 1.875em);
   }
 
   @media screen and (max-width: 480px) {
@@ -82,26 +82,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 21.125em; // 338px / 16px
-  padding: 0.75em 0.25em; // 12px / 16px, 4px / 16px
-  gap: 0.625em; // 10px / 16px
-  border-radius: 0.75em; // 12px / 16px
-  background-color: rgba(239, 60, 189, 0.05);
+  width: 21.125em;
+  padding: 0.75em 0.25em;
+  gap: 0.625em;
+  border-radius: 0.75em;
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 
   @media screen and (max-width: 1080px) {
-    width: 15.4375em; // 247px / 16px
-    height: 6.375em; // 102px / 16px
+    width: 15.4375em;
+    height: 6.375em;
   }
 
   @media screen and (max-width: 480px) {
-    width: 15.4375em; // 247px / 16px
-    height: 6.375em; // 102px / 16px
+    width: 15.4375em;
+    height: 6.375em;
   }
 
   &:hover {
     transform: scale(1.05);
-    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2); // 8px / 16px, 16px / 16px
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
     background-color: rgba(239, 60, 189, 0.1);
   }
 
