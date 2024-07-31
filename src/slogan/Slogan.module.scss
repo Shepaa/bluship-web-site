@@ -1,83 +1,84 @@
 .wrapper {
   display: flex;
+  justify-content: center;
   align-items: center;
   padding: 60px 20px;
-  margin-left: 271px;
-  background-color: #000;
-  @media screen and (max-width: 1440px) {
-    margin-left: 31px;
-  }
-  @media screen and (max-width: 1080px) {
-    margin-left: 20px;
-  }
 }
 
 .extraMileSection {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  @media screen and (max-width: 800px) {
-    align-items: center;
-  }
+  max-width: 1376px;
 }
-
 
 .line {
   color: #FFFFFF;
   font-size: 67px;
   font-weight: 700;
-  line-height: 86.1px;
+  line-height: 1.28em;
   letter-spacing: 0.03em;
   margin-bottom: 6px;
-  @media screen and (max-width: 1440px) {
+  text-align: right;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  width: 365px;
+  height: 85px;
+}
+
+.lastLine{
+  display: flex;
+  gap: 5px;
+  @media screen and (max-width: 800px){
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .line {
     font-size: 60px;
   }
-  @media screen and (max-width: 1080px) {
+}
+
+@media screen and (max-width: 1080px) {
+  .line {
     font-size: 49px;
-    font-weight: 700;
-    line-height: 63.96px;
     letter-spacing: 0.02em;
   }
-  @media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 800px) {
+  .extraMileSection {
+    align-items: center;
+  }
+  .line {
     text-align: center;
   }
-  @media screen and (max-width: 480px) {
+  .logoContainer {
+    margin-top: 0; /* Снимаем отступ, если есть */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .line {
     font-size: 32px;
   }
-}
-
-.highlight {
-  display: inline-block;
-  margin-top: 10px;
-
-  img {
-    margin-left: 10px;
-    height: 1em;
-    vertical-align: middle;
-    @media screen and (max-width: 480px) {
-      width: 246px;
-      height: 65px;
-    }
-    @media screen and (max-width: 320px) {
-      width: 178px;
-      height: 47px;
-    }
+  .logoContainer img {
+    width: 246px;
+    height: 65px;
   }
 }
 
-.extraSpacing {
-  margin-right: 930px;
-  @media screen and (max-width: 1440px) {
-    margin-right: 833px;
+@media screen and (max-width: 320px) {
+  .line {
+    font-size: 24px;
   }
-  @media screen and (max-width: 1080px) {
-    margin-right: 665px;
-  }
-  @media screen and (max-width: 800px) {
-    margin-right: 0;
+  .logoContainer img {
+    width: 178px;
+    height: 47px;
   }
 }
-
-
-
-

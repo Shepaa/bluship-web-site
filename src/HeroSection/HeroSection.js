@@ -3,6 +3,8 @@ import React from 'react';
 import rocketImg from '../assets /fs_rocket (1).png';
 import rocketImgTablet from '../assets /fs_rocket_tablet.png';
 import rocketImgMobile from '../assets /fs_rocket_mobile.png';
+
+
 export const HeroSection = () => {
 
   return (
@@ -22,7 +24,7 @@ export const HeroSection = () => {
           </div>
         </div>
         <div className={style.rocketImgContainer}>
-          <img src={rocketImg} className={style.originalImg}
+          <img src={rocketImg} className={style.desktopImg}
                alt="Rocket for PC"/>
           <img src={rocketImgTablet} className={style.rocketImgTablet}
                alt="Rocket for Tablet"/>

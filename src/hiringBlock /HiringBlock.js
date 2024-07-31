@@ -1,6 +1,6 @@
 import style from './HiringBlock.module.scss';
 import starIcon from '../assets /star.svg';
-
+import linkIcon from '../assets /link_icon.png';
 export const HiringBlock = () => {
   return (
       <div className={style.hiringBlockContainer}>
@@ -12,7 +12,12 @@ export const HiringBlock = () => {
         </div>
         <div className={style.hiringBlockSubTitle}>
           VIEW OPEN ROLES
+          <div className={style.hiringBlockLinkIcon}>
+          <a href={"#"}>
+            <img src={linkIcon} alt="linkIcon"/></a>
         </div>
+        </div>
+
       </div>
   );
 };

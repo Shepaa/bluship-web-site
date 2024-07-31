@@ -1,6 +1,6 @@
-import React from "react";
-import style from "./Slogan.module.scss";
-import bullShipLabel from '../assets /BlushipLabel.png'; // Проверьте правильность пути к изображению
+import React from 'react';
+import style from './Slogan.module.scss';
+import blushipLabel from '../assets /BlushipLabel.png';
 
 export const Slogan = () => {
   return (
@@ -8,11 +8,13 @@ export const Slogan = () => {
         <div className={style.extraMileSection}>
           <div className={style.line}>GOING THE EXTRA MILE</div>
           <div className={style.line}>SEES NO SETBACKS WHEN YOU'RE FLYING</div>
-          <div className={`${style.line} ${style.extraSpacing}`}>
-            WITH
-            <div className={style.highlight}>
-              <img src={bullShipLabel} alt="Bluship Label"/>
-            </div>
+          <div className={style.lastLine}>
+          <div className={style.line}>
+            <span>WITH</span>
+          </div>
+          <div className={style.logoContainer}>
+            <img src={blushipLabel} alt="Bluship Label" />
+          </div>
           </div>
         </div>
       </div>
