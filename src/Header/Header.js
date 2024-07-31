@@ -38,7 +38,7 @@ export const Header = () => {
         </div>
 
         {isButtonActive && (
-            <div style={{background: 'linear-gradient(180deg, #1E071F 0%, #0B091C 100%)'}}>
+            <div style={{background: `linear-gradient(180deg, #1E071F 0%, #0B091C 100%)` }}>
               <div className={style.hiddenHeaderLinks}>
                 <a href="#">SERVICES</a>
                 <a href="#">NETWORK</a>

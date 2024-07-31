@@ -17,7 +17,9 @@
 }
 
 .line {
-  color: #FFFFFF;
+  background: rgba(247, 247, 250, 1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 67px;
   font-weight: 700;
   line-height: 1.28em;

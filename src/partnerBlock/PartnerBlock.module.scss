@@ -1,5 +1,4 @@
 .wrapper {
-  color: #F7F7FA;
   margin-top: -25px;
   position: relative;
   overflow: hidden;
@@ -16,10 +15,15 @@
 }
 
 .blue {
-  color: #16BAFF;
+  background: linear-gradient(90deg, #16BAFF 0%, #8CC8FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .title {
+  background: rgba(255, 255, 255, 1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   width: 385px;
   margin: 0 auto;
   font-size: 1.5em;

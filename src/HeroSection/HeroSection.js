@@ -11,10 +11,10 @@ export const HeroSection = () => {
       <div className={style.wrapper}>
         <div className={style.bannerContainer}>
           <div className={style.title}>
-            <span className={style.blue}>BORN</span> IN WEB2<br/>
-            <span className={style.purple}>BUILT</span> FOR WEB3
+            <span className={style.blue}>BORN</span> <span className={style.colorFix}> IN WEB2</span><br/>
+            <span className={style.purple}>BUILT</span> <span className={style.colorFix}>FOR WEB3</span>
           </div>
-          <div className={style.subTitle}>
+          <div className={`${style.subTitle} ${style.colorFix}`}>
             We know building and growing a community can be tough. We're here
             to alleviate all the trial & error. With our expertise, you will
             confidently soar into growth. Say goodbye to "flying blind.”

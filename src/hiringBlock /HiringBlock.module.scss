@@ -30,13 +30,17 @@
 .hiringBlockTitle {
   display: flex;
   align-items: center;
-  color: black;
+  background: rgba(4, 2, 13, 1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hiringBlockSubTitle {
   display: flex;
   align-items: center;
-  color: white;
+  background: rgba(247, 247, 250, 1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hiringBlockLinkIcon {
