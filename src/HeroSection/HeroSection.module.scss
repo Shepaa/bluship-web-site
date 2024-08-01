@@ -50,11 +50,10 @@
 
 .title {
   font-weight: 700;
-  line-height: 1.32em;
   letter-spacing: 0.02em;
   text-align: left;
   font-size: 86px;
-
+  line-height: 100px;
   @media screen and (max-width: 480px) {
     font-size: 47px;
   }
