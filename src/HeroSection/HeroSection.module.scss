@@ -47,19 +47,17 @@
 
 .title {
   font-weight: 700;
-  line-height: 1.32em; // Использование em
+  line-height: 1.32em;
   letter-spacing: 0.02em;
   text-align: left;
   font-size: 86px;
 
   @media screen and (max-width: 480px) {
     font-size: 47px;
-    // line-height пересчитывается автоматически
   }
 
   @media screen and (max-width: 320px) {
     font-size: 36px;
-    // line-height пересчитывается автоматически
   }
 }
 
@@ -67,18 +65,20 @@
   margin-top: 26px;
   font-size: 18px;
   font-weight: 500;
-  line-height: 1.56em; // Использование em
+  line-height: 1.56em;
   text-align: left;
   width: 500px;
+  color: rgba(214, 218, 227, 1);
+  //-webkit-background-clip: text;
+  //-webkit-text-fill-color: transparent;
+
   @media screen and (max-width: 480px) {
     width: 100%;
     font-size: 16px;
-    // line-height пересчитывается автоматически
   }
 
   @media screen and (max-width: 320px) {
     font-size: 14px;
-    // line-height пересчитывается автоматически
     margin-top: 16px;
   }
 }
@@ -109,7 +109,7 @@
     font-size: 16px;
     font-style: italic;
     font-weight: 900;
-    line-height: 1.625em; // Использование em
+    line-height: 1.625em;
     background: rgba(4, 2, 13, 1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -138,11 +138,11 @@
   }
 
   &:hover {
-    background-color: #f7f7fa; // слегка серый оттенок
+    background-color: #f7f7fa;
     transform: translateY(-2px);
 
     a {
-      color: #0b091c; // темный цвет текста
+      color: #0b091c;
     }
 
     &:before {
@@ -205,7 +205,7 @@
   @media screen and (max-width: 480px) {
     display: block;
     width: 100%;
-    height: auto; // поддерживаем пропорции
+    height: auto;
     top: 630px;
   }
 

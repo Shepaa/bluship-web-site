@@ -14,7 +14,7 @@ export const HeroSection = () => {
             <span className={style.blue}>BORN</span> <span className={style.colorFix}> IN WEB2</span><br/>
             <span className={style.purple}>BUILT</span> <span className={style.colorFix}>FOR WEB3</span>
           </div>
-          <div className={`${style.subTitle} ${style.colorFix}`}>
+          <div className={`${style.subTitle}`}>
             We know building and growing a community can be tough. We're here
             to alleviate all the trial & error. With our expertise, you will
             confidently soar into growth. Say goodbye to "flying blind.”
