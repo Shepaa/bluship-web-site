@@ -4,6 +4,7 @@ import linkIcon from '../assets /link_icon.png';
 export const HiringBlock = () => {
   return (
       <div className={style.hiringBlockContainer}>
+        <div className={style.hiringBlockContentWrapper}>
         <div className={style.hiringBlockTitle}>
           <div className={style.hiringBlockTitleIcon}>
             <img src={starIcon} alt="Star"/>
@@ -17,7 +18,7 @@ export const HiringBlock = () => {
             <img src={linkIcon} alt="linkIcon"/></a>
         </div>
         </div>
-
+      </div>
       </div>
   );
 };

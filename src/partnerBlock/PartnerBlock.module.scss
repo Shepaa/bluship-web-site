@@ -93,15 +93,23 @@
   background-color: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(10px);
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  height: 126px;
+  img{
+    width: 233px;
+  }
 
   @media screen and (max-width: 1080px) {
-    width: 15.4375em;
-    height: 6.375em;
+    width: 247px;
+    height: 102px;
+  }
+
+  @media screen and (max-width: 800px) {
+    width: 189px;
   }
 
   @media screen and (max-width: 480px) {
-    width: 15.4375em;
-    height: 6.375em;
+    width: 224px;
+    height: 98px;
   }
 
   &:hover {

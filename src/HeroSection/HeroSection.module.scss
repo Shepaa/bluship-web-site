@@ -1,5 +1,8 @@
 .wrapper {
   padding: 20px;
+  @media screen and (max-width: 320px) {
+    padding: 0;
+  }
 }
 
 .bannerContainer {
@@ -69,8 +72,6 @@
   text-align: left;
   width: 500px;
   color: rgba(214, 218, 227, 1);
-  //-webkit-background-clip: text;
-  //-webkit-text-fill-color: transparent;
 
   @media screen and (max-width: 480px) {
     width: 100%;
