@@ -6,8 +6,8 @@ export const Slogan = () => {
   return (
       <div className={style.wrapper}>
         <div className={style.extraMileSection}>
-          <div className={style.line}>GOING THE EXTRA MILE</div>
-          <div className={style.line}>SEES NO SETBACKS WHEN YOU'RE FLYING</div>
+          <div className={`${style.line} ${style.firstLine}`}>GOING THE EXTRA MILE</div>
+          <div  className={`${style.line} ${style.secondLine}`}>SEES NO SETBACKS WHEN YOU'RE FLYING</div>
           <div className={style.lastLine}>
           <div className={style.line}>
             <span>WITH</span>

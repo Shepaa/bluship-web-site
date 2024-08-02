@@ -12,11 +12,16 @@
 .extraMileSection {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  //align-items: flex-end;
   max-width: 1376px;
   width: 100%; // Добавлено для полного заполнения ширины
 }
+.firstLine{
 
+}
+.secondLine{
+
+}
 .line {
   background: rgba(247, 247, 250, 1);
   -webkit-background-clip: text;
