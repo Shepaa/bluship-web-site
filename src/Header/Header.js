@@ -6,7 +6,7 @@ import burgerIconActive from '../assets /activeMenuBtn.png';
 import linkedIn from '../assets /LinkedIn - Negative.png';
 import twitterLogo from '../assets /Twitter - Negative.png';
 import materialLogo from '../assets /material-symbols_mail-rounded.png';
-import calendarLogo from "../assets /calendar_plus.png"
+import calendarLogo from '../assets /calendar_plus.png';
 import {BookBtn} from '../components /bookBtn/bookBtn';
 
 export const Header = () => {
@@ -19,7 +19,9 @@ export const Header = () => {
       <div>
         <div className={style.headerWrapper}>
           <div className={style.headerLogo}>
-            <img src={headerLogo} alt="headerLogo"/>
+            <a href="#">
+              <img src={headerLogo} alt="headerLogo"/>
+            </a>
           </div>
           <div className={style.headerLinks}>
             <a href="#">SERVICES</a>
@@ -38,7 +40,8 @@ export const Header = () => {
         </div>
 
         {isButtonActive && (
-            <div style={{background: `linear-gradient(180deg, #1E071F 0%, #0B091C 100%)` }}>
+            <div
+                style={{background: `linear-gradient(180deg, #1E071F 0%, #0B091C 100%)`}}>
               <div className={style.hiddenHeaderLinks}>
                 <a href="#">SERVICES</a>
                 <a href="#">NETWORK</a>

@@ -94,9 +94,7 @@
   backdrop-filter: blur(10px);
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
   height: 126px;
-  img{
-    width: 233px;
-  }
+
 
   @media screen and (max-width: 1080px) {
     width: 247px;
