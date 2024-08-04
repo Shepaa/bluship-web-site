@@ -1,8 +1,5 @@
 .wrapper {
-  padding: 20px;
-  @media screen and (max-width: 320px) {
-    padding: 0;
-  }
+
 }
 
 .bannerContainer {
@@ -42,32 +39,36 @@
   -webkit-text-fill-color: transparent;
 }
 
-.colorFix{
+.colorFix {
   background: rgba(255, 255, 255, 1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .title {
+  width: 100%;
   font-weight: 700;
   letter-spacing: 0.02em;
-  text-align: left;
   font-size: 86px;
   line-height: 100px;
+  transition: all 0.3s ease;
+
+  @media screen and (max-width: 800px) {
+    font-size: clamp(5.5rem, 4.5vw, 3.5rem);
+    line-height: 1.2;
+  }
+
   @media screen and (max-width: 480px) {
-    font-size: 47px;
+    font-size: 52px;
+    line-height: 62px;
   }
 
   @media screen and (max-width: 320px) {
-    width: 280px;
     font-size: 35px;
-    font-weight: 700;
-    line-height: 38px;
-    letter-spacing: 0.02em;
-    text-align: left;
-
+    line-height: 45px;
   }
 }
+
 
 .subTitle {
   margin-top: 26px;
@@ -111,7 +112,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 12px 28px;
     font-family: Satoshi, sans-serif;
     font-size: 16px;
     font-style: italic;
@@ -128,7 +128,7 @@
 
     @media screen and (max-width: 320px) {
       font-size: 14px;
-      padding: 10px 20px;
+
     }
   }
 
