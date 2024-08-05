@@ -50,10 +50,6 @@
   align-items: center;
   margin: 2.625em auto;
 
-  @media screen and (max-width: 1440px) {
-    margin-left: 2.375em;
-    margin-right: 2.25em;
-  }
 
   @media screen and (max-width: 1080px) {
     width: 62.5em;
@@ -83,7 +79,7 @@
   margin-top: 0.25em; // 4px / 16px
   gap: 0.25em; // 4px / 16px
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1000px) {
     display: none;
   }
 }
@@ -92,7 +88,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 21.125em;
+  width: 338px;
   gap: 0.625em;
   border-radius: 0.75em;
   background-color: rgba(255, 255, 255, 0.05);
@@ -100,13 +96,69 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
   height: 126px;
 
+  .ubisoft {
+    width: 180px;
+    height: 57px;
+    @media screen and (max-width: 1000px) {
+      width: 140px;
+      height: 43px;
+    }
+  }
 
-  @media screen and (max-width: 1080px) {
+  .grizzly {
+    width: 233px;
+    height: 102px; // Настроить нужную высоту
+    @media screen and (max-width: 1000px) {
+      width: 181px;
+      height: 78px;
+    }
+  }
+
+  .early {
+    width: 215px;
+    height: 36px; // Настроить нужную высоту
+    @media screen and (max-width: 1000px) {
+      width: 167px;
+      height: 28px;
+    }
+  }
+
+  .spoils {
+    width: 233px;
+    height: 102px; // Настроить нужную высоту
+    @media screen and (max-width: 1000px) {
+      width: 181px;
+      height: 78px;
+    }
+  }
+
+  .habbo {
+    width: 233px;
+    height: 102px; // Настроить нужную высоту
+  }
+
+  .gcds {
+    width: 233px;
+    height: 102px; // Настроить нужную высоту
+  }
+
+  .workAdv {
+    width: 233px;
+    height: 102px; // Настроить нужную высоту
+  }
+
+  .realLabs {
+    width: 182px;
+    height: 50px; // Настроить нужную высоту
+  }
+
+
+  @media screen and (max-width: 1440px) {
     width: 247px;
     height: 102px;
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1000px) {
     width: 189px;
   }
 

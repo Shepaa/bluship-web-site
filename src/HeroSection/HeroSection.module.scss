@@ -53,12 +53,7 @@
   line-height: 100px;
   transition: all 0.3s ease;
 
-  @media screen and (max-width: 800px) {
-    font-size: clamp(5.5rem, 4.5vw, 3.5rem);
-    line-height: 1.2;
-  }
-
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 730px) {
     font-size: 52px;
     line-height: 62px;
   }

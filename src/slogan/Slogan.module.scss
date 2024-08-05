@@ -3,7 +3,8 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  @media screen and (max-width: 480px){
+
+  @media screen and (max-width: 480px) {
     margin-top: 35px;
   }
 }
@@ -11,13 +12,21 @@
 .extraMileSection {
   display: flex;
   flex-direction: column;
+  width: 1364px;
+  height: 270px;
+  @media screen and (max-width: 1080px) {
+    width: 1000px;
+  }
 }
-.firstLine{
 
+.firstLine {
+  text-align: right;
 }
-.secondLine{
 
+.secondLine {
+  text-align: left;
 }
+
 .line {
   background: rgba(247, 247, 250, 1);
   -webkit-background-clip: text;
@@ -25,9 +34,14 @@
   font-size: 70px;
   font-weight: 700;
   line-height: 1.28em;
-  letter-spacing: 0.03em;
+  letter-spacing: -0.003em;
   margin-bottom: 6px;
-  text-align: right;
+  //text-align: right;
+
+
+  @media screen and (max-width: 1355px) { //TEST
+    font-size: 65px;
+  }
 }
 
 .logoContainer {
@@ -40,22 +54,14 @@
   display: flex;
   align-items: center;
   width: 100%;
+  justify-content: flex-start;
 
-  @media screen and (max-width: 1440px){
-    width: 89.5%;
-  }
-  @media screen and (max-width: 1080px){
-    width: 96.5%;
-  }
 }
 
-@media screen and (max-width: 1440px) {
-  .line { font-size: 52px; }
-}
 
 @media screen and (max-width: 1080px) {
   .line {
-    font-size: 45px;
+    font-size: 49px;
     letter-spacing: 0.02em;
   }
 }
@@ -78,7 +84,9 @@
 }
 
 @media screen and (max-width: 480px) {
-  .line { font-size: 32px; }
+  .line {
+    font-size: 32px;
+  }
   .logoContainer img {
     width: 246px;
     height: 65px;
@@ -86,7 +94,9 @@
 }
 
 @media screen and (max-width: 320px) {
-  .line { font-size: 24px; }
+  .line {
+    font-size: 24px;
+  }
   .logoContainer img {
     width: 178px;
     height: 47px;

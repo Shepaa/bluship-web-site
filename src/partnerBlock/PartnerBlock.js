@@ -16,30 +16,30 @@ export const PartnerBlock = () => {
         <div className={style.partnerBlockWrapper}>
           <div className={style.firstLine}>
             <div className={style.partnerCart}>
-              <img src={UbisoftImg} alt="UbisoftImg"/>
+              <img src={UbisoftImg} alt="UbisoftImg" className={style.ubisoft}/>
             </div>
             <div className={style.partnerCart}>
-              <img src={Grizzly} alt="UbisoftImg"/>
+              <img src={Grizzly} alt="UbisoftImg" className={style.grizzly}/>
             </div>
             <div className={style.partnerCart}>
-              <img src={Early} alt="UbisoftImg"/>
+              <img src={Early} alt="UbisoftImg" className={style.early}/>
             </div>
             <div className={style.partnerCart}>
-              <img src={Spoils} alt="UbisoftImg"/>
+              <img src={Spoils} alt="UbisoftImg" className={style.spoils}/>
             </div>
           </div>
           <div className={style.secondLine}>
             <div className={style.partnerCart}>
-              <img src={Habbo} alt="UbisoftImg"/>
+              <img src={Habbo} alt="UbisoftImg" className={style.habbo}/>
             </div>
             <div className={style.partnerCart}>
-              <img src={GCDSImg} alt="UbisoftImg"/>
+              <img src={GCDSImg} alt="UbisoftImg" className={style.gcds}/>
             </div>
             <div className={style.partnerCart}>
-              <img src={WorkAdv} alt="UbisoftImg"/>
+              <img src={WorkAdv} alt="UbisoftImg" className={style.workAdv}/>
             </div>
             <div className={style.partnerCart}>
-              <img src={realLabsImg} alt="UbisoftImg"/>
+              <img src={realLabsImg} alt="UbisoftImg" className={style.realLabs}/>
             </div>
           </div>
         </div>
