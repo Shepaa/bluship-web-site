@@ -28,8 +28,11 @@
     height: 100%;
     z-index: 1;
     transition: color 0.3s ease;
-    @media screen and (max-width: 655px) {
+    @media screen and (max-width: 690px) {
       font-size: 12px;
+    }
+    @media screen and (max-width: 347px) {
+      font-size: 8px;
     }
   }
 
@@ -67,11 +70,11 @@
     margin-right: 40px;
     width: 170px;
   }
-  @media screen and (max-width: 655px) {
+  @media screen and (max-width: 690px) {
     width: 80px;
   }
-  @media screen and (max-width: 550px) {
-    margin-left: 6.5%;
+  @media screen and (max-width: 580px) {
+    margin-left: 17.5%;
     width: 170px;
     margin-right: 0;
   }
