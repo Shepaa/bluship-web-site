@@ -35,9 +35,15 @@
     font-size: 1.5em;
     font-weight: 600;
   }
-
+  @media screen and (max-width: 800px) {
+    width: 385px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+  }
   @media screen and (max-width: 320px) {
-    width: 16.0625em;
+    width: 257px;
     font-size: 1em;
     font-weight: 600;
   }
@@ -79,7 +85,7 @@
   margin-top: 0.25em; // 4px / 16px
   gap: 0.25em; // 4px / 16px
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 800px) {
     display: none;
   }
 }
@@ -152,14 +158,18 @@
     height: 50px; // Настроить нужную высоту
   }
 
+  @media screen and (max-width: 1355px) {
+    width: 266px;
+    height: 102px;
+  }
 
-  @media screen and (max-width: 1440px) {
+  @media screen and (max-width: 1080px) {
     width: 247px;
     height: 102px;
   }
 
   @media screen and (max-width: 1000px) {
-    width: 189px;
+    width: 224px;
   }
 
   @media screen and (max-width: 480px) {
