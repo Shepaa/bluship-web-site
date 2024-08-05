@@ -117,11 +117,6 @@
 
   img {
     transition: transform 0.3s ease, opacity 0.3s ease;
-
-    &:hover {
-      transform: rotate(20deg);
-      opacity: 0.8;
-    }
   }
 }
 
