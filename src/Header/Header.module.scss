@@ -13,21 +13,24 @@
     margin: 0 8px;
   }
 
-  @media screen and (max-width: 550px){
+  @media screen and (max-width: 580px){
     justify-content: start;
     margin-left: 4.5%;
     margin-right: 4.5%;
+  }
+
+  @media screen and (max-width: 480px){
+    margin-left: 1.5%;
   }
 }
 
 .headerLogo {
   height: 50px;
+  margin-top: 13px;
   @media screen and (max-width: 1440px){
     margin-left: 31px;
   }
-  @media screen and (max-width: 1080px){
-    margin-left: 40px;
-  }
+
   @media screen and (max-width: 480px){
     margin-left: 0;
     margin-right: 10.5%;
@@ -101,9 +104,9 @@
     display: flex;
     align-items: center;
     height: 50px;
-    margin-left: 8px;
+    margin-right: 35px;
   }
-  @media screen and (max-width: 580px) {
+  @media screen and (max-width: 480px) {
     margin-left: 6px;
     margin-right: 18px;
   }
@@ -123,13 +126,14 @@
 .hiddenHeaderLinks {
   display: flex;
   flex-direction: column;
-  font-family: Clash Grotesk, sans-serif;
-  font-size: 46px;
-  font-weight: 700;
-  line-height: 1.173em;
-  letter-spacing: 0.02em;
   text-align: left;
   text-transform: uppercase;
+  //margin-left: 12px;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0.02em;
+
 
   a {
     background: rgba(247, 247, 250, 1);
@@ -156,13 +160,13 @@
 }
 
 .headerSocialMediaTitle {
-  padding-left: 18px;
+  //padding-left: 18px;
   color: #7e7994;
 }
 
 .socialMediaCartWrapper {
   display: flex;
-  padding: 16px 18px;
+  padding-top: 18px;
   gap: 12px;
 }
 
