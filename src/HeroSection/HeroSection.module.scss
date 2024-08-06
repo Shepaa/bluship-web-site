@@ -1,5 +1,5 @@
 .wrapper {
-
+  // Можете добавить дополнительные стили для wrapper, если нужно
 }
 
 .bannerContainer {
@@ -64,7 +64,6 @@
   }
 }
 
-
 .subTitle {
   margin-top: 26px;
   font-size: 18px;
@@ -123,7 +122,6 @@
 
     @media screen and (max-width: 320px) {
       font-size: 14px;
-
     }
   }
 
@@ -154,6 +152,19 @@
 
   &:active {
     transform: translateY(1px);
+  }
+}
+
+.rocketImgContainer {
+
+  &.menuOpen {
+    @media screen and (max-width: 480px) {
+      top: 200px; // Adjust this value as needed
+    }
+
+    @media screen and (max-width: 320px) {
+      top: 150px; // Adjust this value as needed
+    }
   }
 }
 
@@ -196,6 +207,12 @@
   @media screen and (max-width: 480px) {
     display: none;
   }
+
+  .menuOpen & {
+    @media screen and (max-width: 580px) {
+      top: 930px; // Adjust this value as needed
+    }
+  }
 }
 
 .rocketImgMobile {
@@ -214,5 +231,14 @@
   @media screen and (max-width: 320px) {
     top: 460px;
   }
-}
 
+  .menuOpen & {
+    @media screen and (max-width: 480px) {
+      top: 930px; // Adjust this value as needed
+    }
+
+    @media screen and (max-width: 320px) {
+      top: 810px; // Adjust this value as needed
+    }
+  }
+}

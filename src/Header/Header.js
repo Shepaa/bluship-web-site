@@ -8,6 +8,7 @@ import twitterLogo from '../assets /Twitter - Negative.png';
 import materialLogo from '../assets /material-symbols_mail-rounded.png';
 import calendarLogo from '../assets /calendar_plus.png';
 import {BookBtn} from '../components /bookBtn/bookBtn';
+import {HeroSection} from '../HeroSection/HeroSection';
 
 export const Header = () => {
   const [isButtonActive, setIsButtonActive] = useState(false);
@@ -41,10 +42,7 @@ export const Header = () => {
 
         {isButtonActive && (
             <div
-                style={{
-                  background: `linear-gradient(180deg, #1E071F 0%, #0B091C 100%)`,
-                  padding: '18px',
-                }}>
+                className={style.hiddenHeaderLinks_wrapper}>
               <div className={style.hiddenHeaderLinks}>
                 <a href="#">SERVICES</a>
                 <a href="#">NETWORK</a>
@@ -71,6 +69,7 @@ export const Header = () => {
               </div>
             </div>
         )}
+        <HeroSection isOpen={isButtonActive}/>
       </div>
   );
 };

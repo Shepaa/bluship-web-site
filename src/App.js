@@ -12,7 +12,7 @@ function App() {
         <HiringBlock/>
         <div className={style.AppContainer}>
           <Header/>
-          <HeroSection/>
+          {/*<HeroSection/>*/}
           <PartnerBlock/>
           <Slogan/>
           <Line/>
