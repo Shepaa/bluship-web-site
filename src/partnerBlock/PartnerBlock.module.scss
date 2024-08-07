@@ -52,17 +52,22 @@
 .partnerBlockWrapper {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  //width: 100%;
   align-items: center;
   margin: 2.625em auto;
 
 
   @media screen and (max-width: 1080px) {
     width: 62.5em;
+    flex-wrap: wrap;
   }
 
   @media screen and (max-width: 800px) {
     width: calc(100% + 1.875em);
+  }
+
+  @media screen and (max-width: 965px) {
+    width: 50.5em;
   }
 
   @media screen and (max-width: 480px) {
@@ -141,7 +146,7 @@
   .habbo {
     width: 233px;
     height: 102px; // Настроить нужную высоту
-    @media screen and (max-width: 1080px){
+    @media screen and (max-width: 1080px) {
       width: 181px;
       height: 78px;
     }
@@ -150,7 +155,7 @@
   .gcds {
     width: 233px;
     height: 102px; // Настроить нужную высоту
-    @media screen and (max-width: 1080px){
+    @media screen and (max-width: 1080px) {
       width: 181px;
       height: 78px;
     }
@@ -159,7 +164,7 @@
   .workAdv {
     width: 233px;
     height: 102px; // Настроить нужную высоту
-    @media screen and (max-width: 1080px){
+    @media screen and (max-width: 1080px) {
       width: 181px;
       height: 78px;
     }
@@ -184,9 +189,10 @@
   @media screen and (max-width: 1000px) {
     width: 224px;
   }
-
+  @media screen and (max-width: 965px) {
+    width: 200px;
+  }
   @media screen and (max-width: 480px) {
-    width: 224px;
     height: 98px;
   }
 
