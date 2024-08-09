@@ -14,7 +14,7 @@
     margin-left: 38px;
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 525px) {
     margin-left: 18px;
     margin-top: 80px;
     width: calc(100% - 36px);
@@ -73,7 +73,7 @@
   width: 500px;
   color: rgba(214, 218, 227, 1);
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 525px) {
     width: 100%;
     font-size: 16px;
   }
